@@ -1,0 +1,10 @@
+std::basic_ostream
+void gismo::gsKnotVector::insert(T, gismo::gsKnotVector::mult_t)
+void gismo::gsKnotVector::supportIndex_into(const gismo::gsKnotVector::mult_t &, gismo::gsMatrix<int> &)
+
+void gismo::gsFileData::getIncludeByLabel(gismo::gsFileData &, std::string)
+void gismo::gsFileData::getIncludeById(gismo::gsFileData &, int)
+void gismo::gsFileData::getIncludeByTime(gismo::gsFileData &, double)
+gsFileData<T, String> & to define wrapper for void gismo::gsFileData::getIncludeByLabel(gismo::gsFileData &, std::string)
+std::ostream & gismo::gsFileData::print(std::ostream &)
+void gismo::gsReadFile::gsReadFile<T>(const std::string &, gismo::gsMultiPatch &)

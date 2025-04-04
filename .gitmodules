@@ -1,0 +1,3 @@
+[submodule "gismo"]
+	path = gismo
+	url = git@github.com:SED-Inria-Sophia/gismo.git
