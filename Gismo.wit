@@ -11,13 +11,13 @@ lib_basename        = "$(@__DIR__)/../deps/libjlGismo"
 # List of input header files containing the classes to wrap
 # See also include_dirs
 input               = [
-"../../gismo/src/gsCore/gsForwardDeclarations.h",
-"../../gismo/src/gsCore/gsLinearAlgebra.h",
-"../../gismo/src/gsIO/gsFileData.h",
-"../../gismo/src/gsIO/gsReadFile.h",
+"gsCore/gsForwardDeclarations.h",
+"gsCore/gsLinearAlgebra.h",
+"gsIO/gsFileData.h",
+"gsIO/gsReadFile.h",
 #"../../gismo/src/gsCore/gsFunctionSet.h",
 
-"../../gismo/src/gsCore/gsSysInfo.h",
+"gsCore/gsSysInfo.h",
 #  "../../gismo/src/gsCore/gsMultiPatch.h",
 #  "../../gismo/src/gsUtils/gsPointGrid.h",
 
@@ -27,17 +27,18 @@ input               = [
 ]
 
 extra_header = [
-"../../gismo/src/gsIO/gsFileData.h",
-"../../gismo/src/gsIO/gsFileData.hpp",
+"gsIO/gsFileData.h",
+"gsIO/gsFileData.hpp",
 
 ]
 # List of directories, where header files must be look for
 include_dirs        = [
-  "../../gismo/build",
-  "../../gismo/external",
-  "../../gismo/src",
-  "../../gismo/src/gsNurbs",
-  "../../gismo/src/gsCore"
+  ".",
+  "./gismo/build",
+  "./gismo/external",
+  "./gismo/src",
+  "./gismo/src/gsNurbs",
+  "./gismo/src/gsCore"
 ]
 
 veto_list = "vetoed_list.txt"
