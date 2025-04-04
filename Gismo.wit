@@ -10,35 +10,34 @@ lib_basename        = "$(@__DIR__)/../deps/libjlGismo"
 
 # List of input header files containing the classes to wrap
 # See also include_dirs
-#input               = [ "/Users/edemairy/Developpement/gismo_wrapit/gismo/src/gismo.h", "/Users/edemairy/Developpement/gismo_wrapit/gismo/src/gsNurbs/gsKnotVector.h" ]
 input               = [
-"/Users/edemairy/Developpement/gismo_wrapit/gismo/src/gsCore/gsForwardDeclarations.h",
-"/Users/edemairy/Developpement/gismo_wrapit/gismo/src/gsCore/gsLinearAlgebra.h",
-"/Users/edemairy/Developpement/gismo_wrapit/gismo/src/gsIO/gsFileData.h",
-"/Users/edemairy/Developpement/gismo_wrapit/gismo/src/gsIO/gsReadFile.h",
-#"/Users/edemairy/Developpement/gismo_wrapit/gismo/src/gsCore/gsFunctionSet.h",
+"../../gismo/src/gsCore/gsForwardDeclarations.h",
+"../../gismo/src/gsCore/gsLinearAlgebra.h",
+"../../gismo/src/gsIO/gsFileData.h",
+"../../gismo/src/gsIO/gsReadFile.h",
+#"../../gismo/src/gsCore/gsFunctionSet.h",
 
-"/Users/edemairy/Developpement/gismo_wrapit/gismo/src/gsCore/gsSysInfo.h",
-#  "/Users/edemairy/Developpement/gismo_wrapit/gismo/src/gsCore/gsMultiPatch.h",
-#  "/Users/edemairy/Developpement/gismo_wrapit/gismo/src/gsUtils/gsPointGrid.h",
+"../../gismo/src/gsCore/gsSysInfo.h",
+#  "../../gismo/src/gsCore/gsMultiPatch.h",
+#  "../../gismo/src/gsUtils/gsPointGrid.h",
 
 
-#  "/Users/edemairy/Developpement/gismo_wrapit/gismo/src/gsCore/gsFunction.h",
-#  "/Users/edemairy/Developpement/gismo_wrapit/gismo/src/gsCore/gsGeometry.h",
+#  "../../gismo/src/gsCore/gsFunction.h",
+#  "../../gismo/src/gsCore/gsGeometry.h",
 ]
 
 extra_header = [
-"/Users/edemairy/Developpement/gismo_wrapit/gismo/src/gsIO/gsFileData.h",
-"/Users/edemairy/Developpement/gismo_wrapit/gismo/src/gsIO/gsFileData.hpp",
+"../../gismo/src/gsIO/gsFileData.h",
+"../../gismo/src/gsIO/gsFileData.hpp",
 
 ]
 # List of directories, where header files must be look for
 include_dirs        = [
-  "/Users/edemairy/Developpement/gismo_wrapit/gismo/build",
-  "/Users/edemairy/Developpement/gismo_wrapit/gismo/external",
-  "/Users/edemairy/Developpement/gismo_wrapit/gismo/src",
-  "/Users/edemairy/Developpement/gismo_wrapit/gismo/src/gsNurbs",
-  "/Users/edemairy/Developpement/gismo_wrapit/gismo/src/gsCore"
+  "../../gismo/build",
+  "../../gismo/external",
+  "../../gismo/src",
+  "../../gismo/src/gsNurbs",
+  "../../gismo/src/gsCore"
 ]
 
 veto_list = "vetoed_list.txt"
